@@ -7,7 +7,7 @@ body {
 }
 
 
-* {
+{
   box-sizing: border-box;
 }
 
@@ -15,13 +15,11 @@ body {
 
 .container {
 
-  position: fixed;
-  z-index: 99;
+/*  position: fixed;
+*/  z-index: 99;
   width: 100%;
-  margin: 0 0 0px;
   overflow: auto;
-/*  color: #fff;
-*/ 
+ color: #fff;
 }
 
 .nav navbar-nav navbar-right{
@@ -30,23 +28,44 @@ body {
 
 .col-md-8 {
 
-/*      background: url("../images/../images/incolor.jpg");
-*/   margin-bottom: 20px;
+background: url("../images/../images/incolor.jpg");
+margin-bottom: 40px;
+margin-right:  20px;
+padding-bottom: 40px;
+
 }
 
-.col-md-4 {
-  margin-top: 80px;
-  float: right;
-  width: 100%;
-/*  max-width: 270px;
-*//*  padding: 30px;
- background: #fff;
-*//*  border: 1px solid #ddd;
-*/}
+.col-md-3 {
+background: url("../images/../images/incolor.jpg");
+/*margin-bottom: 40px;*/
+}
 
-.darkBG {
-/*  background: #4aaaa5; 
-*/}
+col-md-4  {
+  margin-top: 0px;
+  float: left;
+  
+  float: right;
+  max-width: 400px;
+
+ padding: 30px;
+
+}
+
+.panel  {
+/*  margin-top: 0px;
+*//*  float: left;
+*/  
+/*  float: right;
+*//*  max-width: 400px;
+*/background: url("../images/../images/incolor.jpg");
+/* padding: 30px;
+*/
+
+}
+
+{
+  background: #4aaaa5; 
+}
 
 
 h1,
@@ -82,7 +101,7 @@ h3 {
 
 /* header */
 
-#masthead {
+masthead {
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -94,24 +113,25 @@ h3 {
   float: left;
 }
 
-#logo {
-  margin:10px;
+.navbar-brand {
+  /*margin:10px;*/
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #fff;
+ color: #fff
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+/*  background: #4aaaa5;*/
   padding:30px;
+   background: url("../images/../images/incolor.jpg");
 
 }
 
-nav {
-/*  float: right;
-/**/  margin-top: 25px;*/
+enav {
+ padding-right: 150px;
+ padding-left: 150px;
 }
 
 /*nav a {
@@ -172,7 +192,7 @@ h3,
  /* margin: 20px;*/
 }
 
-.main-section {
+main-section {
   float: left;
   width: 100%;
   max-width: 650px;
